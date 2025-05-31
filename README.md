@@ -7,8 +7,6 @@ A userscript that automatically expands the "Show thinking" panel in Google Gemi
 - **Automatic Expansion**: Instantly expands "Show thinking" panels as they appear in Gemini conversations
 - **Intelligent Detection**: Uses DOM mutation observers to detect dynamically loaded content
 - **Non-Intrusive**: Lightweight script that runs only when needed
-- **Error Handling**: Robust error handling with detailed console logging for debugging
-- **Visibility Checks**: Ensures buttons are actually visible before attempting to click them
 
 ## 📋 Requirements
 
@@ -52,30 +50,6 @@ The script specifically targets:
 - Buttons with `data-test-id="thoughts-header-button"`
 - Icons with `data-mat-icon-name="expand_more"` (indicating collapsed state)
 
-## 🛠️ Development
-
-### Project Structure
-```
-gemini-auto-expand-thought/
-├── gemini-auto-expand-thought.user.js  # Main userscript
-├── LICENSE                             # MIT License
-└── README.md                          # This file
-```
-
-### Key Functions
-- `clickShowThinkingButton()`: Handles button clicking with visibility checks
-- `processNode()`: Processes DOM nodes to find and expand thinking panels
-- `MutationObserver`: Monitors DOM changes for dynamic content
-
-## 🐛 Troubleshooting
-
-If the script isn't working:
-
-1. **Check Console**: Open browser dev tools (F12) and look for log messages prefixed with `[Gemini Auto Expand]:`
-2. **Verify Installation**: Ensure your userscript manager shows the script as active on `gemini.google.com`
-3. **Update Script**: Make sure you have the latest version
-4. **Clear Cache**: Try clearing your browser cache and reloading Gemini
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to:
@@ -87,18 +61,3 @@ Contributions are welcome! Please feel free to:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🔗 Links
-
-- [GitHub Repository](https://github.com/InvictusNavarchus/gemini-auto-expand-thought)
-- [Download Latest Version](https://raw.githubusercontent.com/InvictusNavarchus/gemini-auto-expand-thought/master/gemini-auto-expand-thought.user.js)
-- [Google Gemini](https://gemini.google.com/app)
-
-## ⚡ Version History
-
-- **v0.1.1**: Current version with improved DOM handling and error management
-- **v0.1.0**: Initial release
-
----
-
-*Made with ❤️ for the Gemini community*
