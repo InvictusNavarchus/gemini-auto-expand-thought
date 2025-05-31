@@ -1,7 +1,7 @@
 # Gemini Auto Expand Show Thinking
 
-![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)
 
 A userscript that automatically expands the "Show thinking" panel in Google Gemini chat when it appears, providing seamless access to AI reasoning without manual interaction.
 
