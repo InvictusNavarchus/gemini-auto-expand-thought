@@ -3,10 +3,10 @@
 // @namespace    https://github.com/InvictusNavarchus/gemini-auto-expand-thought
 // @downloadURL  https://raw.githubusercontent.com/InvictusNavarchus/gemini-auto-expand-thought/master/gemini-auto-expand-thought.user.js
 // @updateURL    https://raw.githubusercontent.com/InvictusNavarchus/gemini-auto-expand-thought/master/gemini-auto-expand-thought.user.js
-// @version      0.1.1
+// @version      0.1.2
 // @description  Automatically expands the "Show thinking" panel in Gemini chat when it appears.
 // @author       InvictusNavarchus
-// @match        https://gemini.google.com/app*
+// @match        https://gemini.google.com/*
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
